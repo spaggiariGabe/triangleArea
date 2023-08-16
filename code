@@ -1,6 +1,6 @@
 using System;
 
-namespace MyApp //1. Construa um algoritmo que calcule o valor da área de um triangulo, a partir do valor da base e altura.
+namespace MyApp 
 {
     internal class Program
     {
