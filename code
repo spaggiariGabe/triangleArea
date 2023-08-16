@@ -1,0 +1,19 @@
+using System;
+
+namespace MyApp //1. Construa um algoritmo que calcule o valor da área de um triangulo, a partir do valor da base e altura.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double num1, num2, num3;
+            Console.WriteLine("Coloque o valor da base do triângulo: ");
+            num1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Coloque o valor da altura do triângulo: ");
+            num2 = double.Parse(Console.ReadLine());
+            num3 = (num1 * num2) / 2;
+            Console.WriteLine("A area do triângulo é igual à: " + num3);
+
+        }
+    }
+}
