@@ -1,3 +1,4 @@
+//BR-PT -----
 using System;
 
 namespace MyApp 
@@ -17,3 +18,26 @@ namespace MyApp
         }
     }
 }
+//codigo acaba aqui
+
+//EN -----
+using System;
+
+namespace MyApp
+{
+     internal class Program
+     {
+         static void Main(string[] args)
+         {
+             double num1, num2, num3;
+             Console.WriteLine("Enter the triangle base value: ");
+             num1 = double.Parse(Console.ReadLine());
+             Console.WriteLine("Enter the height value of the triangle: ");
+             num2 = double.Parse(Console.ReadLine());
+             num3 = (num1 * num2) / 2;
+             Console.WriteLine("The area of the triangle is equal to: " + num3);
+
+         }
+     }
+}
+//code ends here
